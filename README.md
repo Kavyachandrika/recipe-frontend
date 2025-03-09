@@ -39,32 +39,59 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Working
+1. Main Features
+✅ User Login – Sign up and log in using email or Google.
+✅ Recipe Management – Users can add, edit, delete, and share recipes.
+✅ Live Updates – Any changes to recipes update instantly.
+✅ Upload Images & Videos – Store media using Cloudinary or AWS S3.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Frontend (React.js)
+✅ Easy Search & Filters – Find recipes by ingredients, cuisine, or difficulty.
+✅ Step-by-Step Cooking Guide – Show images/videos for each step.
+✅ Mobile-Friendly Design – Works smoothly on all devices.
 
-### Code Splitting
+3. Backend (Express.js & Node.js)
+✅ Manage Recipes & Users – Create APIs to handle recipes, users, and reviews.
+✅ Store Data in MongoDB – Save recipes, comments, and ratings.
+✅ Faster Loading (Redis) – Speed up the app by caching frequent data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Real-Time Features
+✅ Live Editing – Multiple users can edit a recipe at the same time.
+✅ Comments & Ratings – Users can rate and review recipes.
+✅ Notifications – Get alerts for new recipes, likes, or comments.
 
-### Analyzing the Bundle Size
+5. Security & Deployment
+✅ Secure Login (JWT) – Keep user data safe.
+✅ Deploy Online – Host the app using Vercel/Netlify (Frontend) & Render/AWS (Backend).
+✅ Error Handling – Prevent crashes with proper validations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Tech  stack
+Tech Stack for Recipe Sharing Platform (Simple Explanation) 🚀
+1. Frontend (User Interface - React.js)
+🖥️ React.js – Builds the website's user interface.
+🎨 Tailwind CSS / Material UI – Makes the website look stylish.
+🔀 React Router – Helps users move between pages smoothly.
+📝 Formik + Yup – Handles and validates form inputs.
 
-### Making a Progressive Web App
+2. Backend (Server - Express.js & Node.js)
+🖧 Express.js – Manages requests and responses (handles login, recipes, etc.).
+🔐 JWT / OAuth – Secures user logins (Google, Facebook).
+📡 Socket.io – Enables real-time updates (live recipe editing).
+✅ Joi / Express Validator – Checks if user inputs are correct.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Database (MongoDB - Stores Data)
+💾 MongoDB – Saves recipes, users, and reviews.
+🔗 Mongoose – Connects the database to the server.
+⚡ Redis – Speeds up loading by storing frequently used data.
 
-### Advanced Configuration
+4. File Storage & Notifications
+📸 Cloudinary / AWS S3 – Stores recipe images and videos online.
+📧 Nodemailer / Firebase – Sends email notifications to users.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Hosting & Deployment (Making the App Live)
+🌐 Vercel / Netlify – Puts the frontend online.
+☁️ Render / AWS / Heroku – Hosts the backend (server).
+🛢️ MongoDB Atlas – Stores the database in the cloud.
+📌 Git & GitHub – Tracks code changes and teamwork.
